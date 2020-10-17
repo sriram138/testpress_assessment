@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basics of python</title>
+	 <meta charset="utf-8">
+  	<link rel="stylesheet" type="text/css" href="c1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  	<style type="text/css">
+  	body{
+  		background-image: url(bck13.jpg);
+  	}
+  	#fon{
+  		color: black;
+ 	}
+ 	#heading{
+  		background-color: white;
+  	}
+  </style>
+</head>
+<body>
+<div>
+	<div id="heading"><h2>Basic of python programming</h2></div>
+	<h4>1.python program was developed by</h4>
+	A.<button class="btn" data-color="red"> James Gosling &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button><br>
+	B.<button class="btn" data-color="red">Dennis M. Ritchie&nbsp;&nbsp;&nbsp;</button><br>
+	C.<button class="btn" data-color="green">Guido Van Rossum</button><br><br>
+	<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#ex1">Explaination</button>
+	<div id="ex1" class="collapse">
+		Answer:Option C<br>
+    Python was conceived in the late 1980s by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC language (itself inspired by SETL), capable of exception handling and interfacing with the Amoeba operating system
+    </div>
+    <h4>2.print type(type(int)),OUTPUT is</h4>
+	A.<button class="btn btn-default" data-color="red">type'int</button><br>
+	B.<button class="btn btn-default" data-color="red">Error</button><br>
+	C.<button class="btn btn-default" data-color="green">type'type'</button><br>
+	<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#ex2">Explaination</button>
+	<div id="ex2" class="collapse">
+		Answer:Option C<br>The type() function returns the class of the argument the object belongs to. Thus, type(int) returns which is of the type ‘type’ object.
+  </div>
+  <hr>
+  <h4>3.What is called when a function is defined inside a class?</h4>
+	A.<button class="btn btn-default" data-color="green">Method</button><br>
+	B.<button class="btn btn-default" data-color="red">Module</button><br>
+	C.<button class="btn btn-default" data-color="red">Class</button><br>
+	<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#ex3">Explaination</button>
+	<div id="ex3" class="collapse">
+    Answer:Option A
+  </div>
+  <hr>
+   <h4>4.Suppose list1 is [3, 4, 5, 20, 5, 25, 1, 3], what is list1 after list1.pop(1) ?</h4>
+	A.<button class="btn btn-default" data-color="red">	[3, 4, 5, 20, 5, 25, 1, 3]</button><br>
+	B.<button class="btn btn-default" data-color="green">[3, 5, 20, 5, 25, 1, 3]</button><br>
+	C.<button class="btn btn-default" data-color="red">[1, 3, 4, 5, 20, 5, 25]</button><br>
+	<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#ex4">Explaination</button>
+	<div id="ex4" class="collapse">
+    Answer:Option B<br>
+    pop(i) removes the ith index element from the list
+  </div>
+  <hr>
+  <h4>5.Which operator is overloaded by the or() function ?</h4>
+	A.<button class="btn btn-default" data-color="red"> // </button><br>
+	B.<button class="btn btn-default" data-color="red"> || </button><br>
+	C.<button class="btn btn-default" data-color="green"> | </button><br>
+	<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#ex5">Explaination</button>
+	<div id="ex5" class="collapse">
+    Answer:Option C<br>or() function overloads the bitwise OR operator
+  </div>
+  <hr>
+  <h4>6.What is the output of the expression : 3*1**3 ?</h4>
+	A.<button class="btn btn-default" data-color="green">3</button><br>
+	B.<button class="btn btn-default" data-color="red">27</button><br>
+	C.<button class="btn btn-default" data-color="red">9</button><br>
+	<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#ex6">Explaination</button>
+	<div id="ex6" class="collapse">
+    Answer:Option A<br>Precedence of ** is higher than that of 3, thus first 1**3 will be executed and the result will be multiplied by 3.
+  </div>
+  <hr>
+  <h4>7.Which of these is not a core data type ?</h4>
+	A.<button class="btn btn-default" data-color="green">class</button><br>
+	B.<button class="btn btn-default" data-color="red">list</button><br>
+	C.<button class="btn btn-default" data-color="red">tuple</button><br>
+	<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#ex7">Explaination</button>
+	<div id="ex7" class="collapse">
+    Answer:Option A
+	</div>
+  <hr>
+  <h4>8.print "Hello World"[::-1]</h4>
+	A.<button class="btn btn-default" data-color="red">Hello word</button><br>
+	B.<button class="btn btn-default" data-color="red">Hello Worl</button><br>
+	C.<button class="btn btn-default" data-color="green">dlroW olleH</button><br>
+	<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#ex8">Explaination</button>
+	<div id="ex8" class="collapse">
+    Answer:Option C<br>[ : : ] depicts extended slicing in Python and [::-1] returns the reverse of the string.
+	</div>
+  <hr>
+  <h4>9.Which module in Python supports regular expressions ?</h4>
+	A.<button class="btn btn-default" data-color="green">re</button><br>
+	B.<button class="btn btn-default" data-color="red">regex</button><br>
+	C.<button class="btn btn-default" data-color="red">pyregex</button><br>
+	<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#ex9">Explaination</button>
+	<div id="ex9" class="collapse">
+    Answer:Option A<br>re is a part of the standard library and can be imported using: import re.
+  </div>
+  <hr>
+  <h4>10.Which of the following is correct about Python ?</h4>
+	A.<button class="btn btn-default" data-color="red">It supports automatic garbage collection</button><br>
+	B.<button class="btn btn-default" data-color="red">It can be easily integrated with C, C++ and Java</button><br>
+	C.<button class="btn btn-default" data-color="green">Both of the above</button><br>
+	<button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#ex10">Explaination</button>
+	<div id="ex10" class="collapse">
+    Answer:Option C<br>
+    
+  </div>
+  <hr>
+  <h6>The above questions are very basic,juz fr sample,if you want basic MCQ questions <a href=https://www.geeksforgeeks.org/output-python-program-set-1/>Click Here</a></h6>
+  <script>
+	const btn=document.querySelectorAll(".btn");
+	for(let i=0;i<btn.length;i++){
+		btn[i].addEventListener("click",function(){
+			this.style.color=this.getAttribute("data-color");
+		})
+	}
+</script>
+ </div>
+
+</body>
+</html>
